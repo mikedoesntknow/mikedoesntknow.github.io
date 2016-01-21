@@ -1,30 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
 	<Document>
-		<name>Untitled map</name>
-		<description><![CDATA[]]></description>
-		<Folder>
-			<name>Untitled layer</name>
-			<Placemark>
-				<name>Baytex Energy Centre</name>
-				<description><![CDATA[Lit at night.]]></description>
-				<styleUrl>#icon-503-DB4436</styleUrl>
-				<ExtendedData>
-				</ExtendedData>
-				<Point>
-					<coordinates>-117.290715,56.258573,0.0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Chicago</name>
-				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-				<ExtendedData>
-				</ExtendedData>
-				<Point>
-					<coordinates>-87.62979819999998,41.8781136,0.0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
+		<name>Untitled layer</name>
+		<Placemark>
+			<name>Baytex Energy Centre</name>
+			<description><![CDATA[Lit at night.]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.290715,56.258573,0.0</coordinates>
+			</Point>
+		</Placemark>
 		<Style id='icon-503-DB4436-normal'>
 			<IconStyle>
 				<color>ff3644DB</color>
@@ -61,50 +48,6 @@
 			<Pair>
 				<key>highlight</key>
 				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='icon-503-DB4436-nodesc-normal'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-503-DB4436-nodesc-highlight'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>1.1</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='icon-503-DB4436-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
 	</Document>
